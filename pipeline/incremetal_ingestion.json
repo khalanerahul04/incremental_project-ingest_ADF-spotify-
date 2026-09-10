@@ -132,10 +132,10 @@
 			}
 		],
 		"parameters": {
-			"table": {
+			"schema": {
 				"type": "string"
 			},
-			"schema": {
+			"table": {
 				"type": "string"
 			},
 			"cdc_col": {
