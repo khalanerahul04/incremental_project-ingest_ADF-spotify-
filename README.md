@@ -113,18 +113,16 @@ output
 <img width="668" height="353" alt="image" src="https://github.com/user-attachments/assets/aa39c648-22e1-46cf-ada7-9e799ac2f84f" />
  
 
-
-
-
-
-
-
-
-
-
-
-
 <img width="1515" height="646" alt="image" src="https://github.com/user-attachments/assets/40009f64-2953-4be8-bc5b-bcbad454a226" />
+
+# backrefresh or backfilling
+""" 
+ SELECT * FROM @{pipeline().parameters.schema}.@{pipeline().parameters.table} WHERE @{pipeline().parameters.cdc_col}> '@{if(empty(pipeline().parameters.from_date),activity('last_cdc').output.value[0].cdc,pipeline().parameters.from_date)}'
+
+ """
+
+ <img width="1815" height="836" alt="image" src="https://github.com/user-attachments/assets/75f566ef-ae55-4742-b1c2-043be333d7b2" />
+
 
 
 
