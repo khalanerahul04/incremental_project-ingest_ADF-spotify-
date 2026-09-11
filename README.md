@@ -129,7 +129,17 @@ output
 
  <img width="1815" height="836" alt="image" src="https://github.com/user-attachments/assets/75f566ef-ae55-4742-b1c2-043be333d7b2" />
 
+ ## for each successful
+
+ <img width="1123" height="663" alt="image" src="https://github.com/user-attachments/assets/4c24719f-f6d9-41d1-a400-932e13d0a7a4" />
+<img width="1207" height="616" alt="image" src="https://github.com/user-attachments/assets/f8657c41-311f-4082-81de-bf5890abb784" />
+<img width="1792" height="819" alt="image" src="https://github.com/user-attachments/assets/63c423ee-48e2-43db-a38b-c59178888c87" />
+<img width="1163" height="554" alt="image" src="https://github.com/user-attachments/assets/88d629d4-b36c-49c3-9867-203ecd44a8ff" />
+<img width="1772" height="764" alt="image" src="https://github.com/user-attachments/assets/f65dbeba-04ac-4159-b602-79ad3968177d" />
+<img width="1152" height="576" alt="image" src="https://github.com/user-attachments/assets/e868d799-8308-49a8-83a7-e61bccd21e02" />
+<img width="1059" height="582" alt="image" src="https://github.com/user-attachments/assets/bdf10a01-4d17-421a-ab5a-aec49296563b" />
 
 
+ <img width="1835" height="829" alt="image" src="https://github.com/user-attachments/assets/bc0548ad-cc67-4ae9-acac-298f735ea047" />
 
-
+<img width="1806" height="783" alt="image" src="https://github.com/user-attachments/assets/145ed7cb-574f-4971-99db-81a6cc1e5dd6" />
