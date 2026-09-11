@@ -1,10 +1,10 @@
 ## incremental_project-ingest_ADF-spotify-
 
-Spotify Data Engineering Project
+## Spotify Data Engineering Project
 
 This project demonstrates an end-to-end Data Engineering pipeline for Spotify analytics, where data is extracted from a SQL database source, processed and transformed, and organized into a Star Schema consisting of 5 Dimension tables and 1 Fact table.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 Source: SQL Database
 ETL/Orchestration: Azure Data Factory
 Storage: Azure Data Lake Storage Gen2 (ADLS Gen2)
@@ -15,21 +15,21 @@ Data Modeling: Star Schema
 Languages: Python, PySpark, SQL
 
 
-📊 Data Model
+## 📊 Data Model
 The project follows a Star Schema design:
 
 5 Dimension Tables – store descriptive and master data.
 1 Fact Table – stores measurable business/event-level data and connects with the dimension tables through keys.
 
 
-🔄 Pipeline Flow
+## 🔄 Pipeline Flow
 
 SQL Database → Azure Data Factory → ADLS Gen2 → Azure Databricks → Delta Lake → Gold Layer (Star Schema)
 
 The pipeline includes data ingestion, data cleansing, transformation, validation, incremental data loading, and creation of analytics-ready datasets.
 
 
-🚀 Key Data Engineering Features
+## 🚀 Key Data Engineering Features
 SQL database as the source system
 Automated data ingestion using Azure Data Factory
 Incremental data loading based on updated_at / CDC logic
@@ -42,7 +42,7 @@ Fact-to-dimension relationships using surrogate/business keys
 Reusable and scalable ETL pipeline design
 
 
-🎯 Project Objective
+## 🎯 Project Objective
 
 The primary objective is to build a scalable and maintainable Azure-based Data Engineering solution that transforms raw Spotify data into structured, analytics-ready datasets for reporting and business analysis.
 
