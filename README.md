@@ -139,6 +139,11 @@ output
 <img width="1152" height="576" alt="image" src="https://github.com/user-attachments/assets/e868d799-8308-49a8-83a7-e61bccd21e02" />
 <img width="1059" height="582" alt="image" src="https://github.com/user-attachments/assets/bdf10a01-4d17-421a-ab5a-aec49296563b" />
 
+""" 
+[   {     "schema" : "dbo",     "table" : "DimUser",     "cdc_col" : "updated_at",     "from_date" : ""   },   {     "schema" : "dbo",     "table" : "DimTrack",     "cdc_col" : "updated_at",     "from_date" : ""   },   {     "schema" : "dbo",     "table" : "DimDate",     "cdc_col" : "date",     "from_date" : ""   },   {     "schema" : "dbo",     "table" : "DimArtist",     "cdc_col" : "updated_at",     "from_date" : ""   }]   
+
+"""
+
 
  <img width="1835" height="829" alt="image" src="https://github.com/user-attachments/assets/bc0548ad-cc67-4ae9-acac-298f735ea047" />
 
