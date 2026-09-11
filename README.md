@@ -13,17 +13,21 @@ Transformation: PySpark & Spark SQL
 Data Storage: Delta Lake
 Data Modeling: Star Schema
 Languages: Python, PySpark, SQL
-📊 Data Model
 
+
+📊 Data Model
 The project follows a Star Schema design:
 
 5 Dimension Tables – store descriptive and master data.
 1 Fact Table – stores measurable business/event-level data and connects with the dimension tables through keys.
+
+
 🔄 Pipeline Flow
 
 SQL Database → Azure Data Factory → ADLS Gen2 → Azure Databricks → Delta Lake → Gold Layer (Star Schema)
 
 The pipeline includes data ingestion, data cleansing, transformation, validation, incremental data loading, and creation of analytics-ready datasets.
+
 
 🚀 Key Data Engineering Features
 SQL database as the source system
@@ -36,6 +40,8 @@ Star Schema implementation in the Gold layer
 Data quality and validation test cases
 Fact-to-dimension relationships using surrogate/business keys
 Reusable and scalable ETL pipeline design
+
+
 🎯 Project Objective
 
 The primary objective is to build a scalable and maintainable Azure-based Data Engineering solution that transforms raw Spotify data into structured, analytics-ready datasets for reporting and business analysis.
