@@ -1,5 +1,45 @@
 ## incremental_project-ingest_ADF-spotify-
 
+Spotify Data Engineering Project
+
+This project demonstrates an end-to-end Data Engineering pipeline for Spotify analytics, where data is extracted from a SQL database source, processed and transformed, and organized into a Star Schema consisting of 5 Dimension tables and 1 Fact table.
+
+🛠️ Technologies Used
+Source: SQL Database
+ETL/Orchestration: Azure Data Factory
+Storage: Azure Data Lake Storage Gen2 (ADLS Gen2)
+Processing: Azure Databricks
+Transformation: PySpark & Spark SQL
+Data Storage: Delta Lake
+Data Modeling: Star Schema
+Languages: Python, PySpark, SQL
+📊 Data Model
+
+The project follows a Star Schema design:
+
+5 Dimension Tables – store descriptive and master data.
+1 Fact Table – stores measurable business/event-level data and connects with the dimension tables through keys.
+🔄 Pipeline Flow
+
+SQL Database → Azure Data Factory → ADLS Gen2 → Azure Databricks → Delta Lake → Gold Layer (Star Schema)
+
+The pipeline includes data ingestion, data cleansing, transformation, validation, incremental data loading, and creation of analytics-ready datasets.
+
+🚀 Key Data Engineering Features
+SQL database as the source system
+Automated data ingestion using Azure Data Factory
+Incremental data loading based on updated_at / CDC logic
+Bronze, Silver, and Gold layer architecture
+PySpark-based data transformations
+Delta Lake tables for reliable data storage
+Star Schema implementation in the Gold layer
+Data quality and validation test cases
+Fact-to-dimension relationships using surrogate/business keys
+Reusable and scalable ETL pipeline design
+🎯 Project Objective
+
+The primary objective is to build a scalable and maintainable Azure-based Data Engineering solution that transforms raw Spotify data into structured, analytics-ready datasets for reporting and business analysis.
+
 ### lookup activity 
  to fetch last watermark or last updated date from cdc file by give file path JSON
 <img width="1467" height="775" alt="image" src="https://github.com/user-attachments/assets/06eb15d1-d84e-4ea2-9386-70dd4f7af6b8" />
